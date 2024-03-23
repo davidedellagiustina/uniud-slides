@@ -24,14 +24,14 @@
 
 <!-- Readme contents -->
 
-## About
-
-This repository provides a simple template that includes:
-- a nice and simple readme file;
-- a copy of the MIT license;
-- pre-configured templates for GitHub issues.
-
-To get started, select this project as a template when creating your own repository.
-After that, search for `TODO` notes and customize them according to your project.
-
 ## Usage Instructions
+
+In order to use this template:
+1. install [Typst](https://typst.app) on your computer;
+2. fork this repository;
+3. clone your fork locally;
+4. edit `./src/main.typ` and `./src/bibliography.yaml`;
+5. run `typst compile ./src/main.typ`;
+6. enjoy your slides!
+
+Alternatively, you can also upload all the files contained in the `./src` folder to the online Typst editor.
