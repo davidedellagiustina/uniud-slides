@@ -30,8 +30,8 @@ In order to use this template:
 1. install [Typst](https://typst.app) on your computer;
 2. fork this repository;
 3. clone your fork locally;
-4. edit `./src/main.typ` and `./src/bibliography.yaml`;
-5. run `typst compile ./src/main.typ`;
+4. run `typst watch ./src/main.typ`;
+5. edit `./src/main.typ` and `./src/bibliography.yaml`;
 6. enjoy your slides!
 
 Alternatively, you can also upload all the files contained in the `./src` folder to the online Typst editor.
