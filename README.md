@@ -17,6 +17,9 @@
     </p>
 </p>
 
+<!-- Cover image -->
+<img src="./.github/assets/cover.png" alt="Cover" height=150">
+
 <!-- Readme contents -->
 
 ## About
