@@ -1,4 +1,5 @@
 // Usage example of the uniud-slides template
+// File: ./src/main.typ
 
 #import "./uniud-slides/template.typ": *
 

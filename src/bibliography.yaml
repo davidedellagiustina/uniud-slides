@@ -1,63 +1,11 @@
-# Quantum Amplitude Amplification and Estimation
-AmplitudeAmplification:
-    type: article
-    title: "Quantum Amplitude Amplification and Estimation"
-    author:
-        - "Brassard, Gilles"
-        - "Høyer, Peter"
-        - "Mosca, Michele"
-        - "Tapp, Alain"
-    date: 2002
-    parent:
-        type: periodical
-        title: "Quantum Computation and Information"
-        publisher: "American Mathematical Society"
+# Usage example of the uniud-slides template
+# File: ./src/bibliography.yaml
 
-# Finding stable models via quantum computation
-QuantumStableModels:
-    type: proceedings
-    title: "Finding stable models via quantum computation"
-    author:
-        - "Meyer, David A."
-        - "Pommersheim, James"
-        - "Remmel, Jeffrey B."
-    date: 2004-01
-    parent:
-        type: conference
-        title: International Workshop on Non-Monotonic Reasoning
+# Reference: https://github.com/typst/hayagriva/blob/main/docs/file-format.md
 
-# Quantum Algorithms for WMC, MPE and MAP
-QuantumWmc:
-    type: misc
-    title: "Quantum Algorithms for WMC, MPE and MAP"
-    author:
-        - "Riguzzi, Fabrizio"
-        - "Mykhailova, Mariia"
-    date: 2022-07
-
-# Rushing and Strolling among Answer Sets -- Navigation Made Easy
-RushingStrolling:
-    type: article
-    title: "Rushing and Strolling among Answer Sets — Navigation Made Easy"
-    author:
-        - "Fichte, Johannes K."
-        - "Gaggl, Sarah A."
-        - "Rusovac, Dominik"
-    date: 2021-12
-    parent:
-        type: periodical
-        title: "CoRR"
-
-# Quantum Recurrence Theorem
-QuantumRecurrence:
-    type: article
-    title: "Quantum Recurrence Theorem"
-    author:
-        - "Bocchieri, P."
-        - "Loinger, A."
-    date: 1957-07
-    parent:
-        type: periodical
-        title: "Physical Review"
-        publisher: "American Physical Society"
-
+# Typst website
+typst:
+    type: web
+    title: "Typst"
+    url:
+        value: "https://typst.app"
