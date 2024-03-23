@@ -5,7 +5,7 @@
 <br/>
 <p align="center">
     <a href="https://github.com/davidedellagiustina/uniud-slides">
-        <img src="./.github/assets/logo.png" alt="Logo" height=80">
+        <img src="./.github/assets/logo.png" alt="Logo" height=80>
     </a>
     <h1 align="center">UniUD Slides</h1>
     <p align="center">
@@ -18,7 +18,7 @@
 </p>
 
 <!-- Cover image -->
-<img src="./.github/assets/cover.png" alt="Cover" height=150">
+<img src="./.github/assets/cover.png" alt="Cover" height=150>
 
 <!-- Readme contents -->
 
