@@ -4,16 +4,16 @@
 <!-- Header -->
 <br/>
 <p align="center">
-    <a href="https://github.com/davidedellagiustina/cute-readme"> <!-- TODO: Adjust repository link -->
+    <a href="https://github.com/davidedellagiustina/uniud-slides">
         <img src="./.github/assets/logo.png" alt="Logo" height=80"> <!-- TODO: Use a proper logo -->
     </a>
-    <h1 align="center">Cute Readme Template</h1> <!-- TODO: Adjust poject name -->
+    <h1 align="center">UniUD Slides</h1>
     <p align="center">
         <img src="https://img.shields.io/static/v1?label=&message=template%20repository&color=orange" alt="template repository">
         <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green" alt="MIT license">
         <!-- TODO: Adjust badges -->
         <br/>
-        A simple template repository with pre-configured boilerplate. <!-- TODO: Adjust project description -->
+        An unofficial <a href="https://typst.app">Typst</a> template for presentation slides at the <a href="https://www.uniud.it/it">University of Udine</a>.
         <br/>
     </p>
 </p>
