@@ -17,12 +17,13 @@
     </p>
 </p>
 
-<!-- Cover image -->
-<p align="center">
-    <img src="./.github/assets/cover.png" alt="Cover" height=400>
-</p>
-
 <!-- Readme contents -->
+
+## Preview
+
+| <img src="./.github/assets/slide-title.png" width="500"> | <img src="./.github/assets/slide-content.png" width="500"> |
+| -------------------------------------------------------- | ---------------------------------------------------------- |
+| Title slide                                              | Content slide                                              |
 
 ## Usage Instructions
 
