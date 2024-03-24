@@ -100,7 +100,7 @@
     let subtitle-raw = subtitle.replace("\n", " ")
 
     let uniud-banner = align(center + top, {
-        let banner = "./assets/banner.svg"
+        let banner = "./assets/images/banner.svg"
         image(banner, width: 100%)
     })
 

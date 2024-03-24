@@ -32,7 +32,7 @@
 If you wish to use a local installation of the Typst compiler on your computer, follow these instructions to use this template:
 1. fork this repository;
 2. clone your fork on your machine;
-3. run `typst watch ./src/main.typ`;
+3. run `typst watch ./src/main.typ --font-path ./src/uniud-slides/assets/fonts`;
 4. edit `./src/main.typ` and `./src/bibliography.yaml` to create your presentation;
 5. (optional) use git with your fork for version control;
 6. enjoy your slides!
