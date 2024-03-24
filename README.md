@@ -27,12 +27,20 @@
 
 ## Usage Instructions
 
-In order to use this template:
-1. install [Typst](https://typst.app) on your computer;
-2. fork this repository;
-3. clone your fork locally;
-4. run `typst watch ./src/main.typ`;
-5. edit `./src/main.typ` and `./src/bibliography.yaml`;
+### Local installation
+
+If you wish to use a local installation of the Typst compiler on your computer, follow these instructions to use this template:
+1. fork this repository;
+2. clone your fork on your machine;
+3. run `typst watch ./src/main.typ`;
+4. edit `./src/main.typ` and `./src/bibliography.yaml` to create your presentation;
+5. (optional) use git with your fork for version control;
 6. enjoy your slides!
 
-Alternatively, you can also upload all the files contained in the `./src` folder to the online Typst editor.
+### Web editor
+
+If you prefer to use the Typst webapp, follow these instructions instead:
+1. download a copy of this repository;
+2. upload all the contents of the `./src` folder to the web editor;
+3. edit `./src/main.typ` and `./src/bibliography.yaml` to create your presentation;
+4. enjoy your slides!
