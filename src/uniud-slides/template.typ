@@ -1,8 +1,8 @@
-// Presentation slides for the University of Udine
+// Presentation slides templarte for the University of Udine (UniUD)
 // Author: Davide Della Giustina
 // Date: 02/2024
 
-// This template used [Polylux](https://github.com/andreasKroepelin/polylux) to render slides
+// This template uses [Polylux](https://github.com/andreasKroepelin/polylux) to render slides
 #import "@preview/polylux:0.3.1": *
 
 // Main configuration function
@@ -14,7 +14,7 @@
     course: "Computer Science",
     academic-year: "2023-24",
     date: datetime.today(),
-    title: "Thesis Title",
+    title: "Presentation Title",
     subtitle: "",
     candidate: (
         name: "Mario Rossi",
@@ -39,11 +39,11 @@
         panic("unsupported language")
     }
 
-    let supported-departments = ("dmif", )
+    let supported-departments = ("dmed", "dill", "di4a", "dies", "disg", "dmif", "dium", "dpia")
     if department-override == "" {
-      if department not in supported-departments {
-          panic("unsupported department")
-      }
+        if department not in supported-departments {
+            panic("unsupported department")
+        }
     }
 
     // +---------+
@@ -66,9 +66,30 @@
         else if lang == "it" { "Anno accademico" }
 
     let department-desc = if department-override != "" { department-override }
-        else if department == "dmif" {
+        else if department == "dmed" {
+            if lang == "en" { "Department of Medicine" }
+            else if lang == "it" { "Dipartimento di Medicina" }
+        } else if department == "dill" {
+            if lang == "en" { "Department of Languages and Literatures, Communication, Education and Society" }
+            else if lang == "it" { "Dipartimento di Lingue e Letterature, Comunicazione, Formazione e Società" }
+        } else if department == "di4a" {
+            if lang == "en" { "Department of Agricultural, Food, Environmental and Animal Sciences" }
+            else if lang == "it" { "Dipartimento di Scienze Agroalimentari, Ambientali e Animali" }
+        } else if department == "dies" {
+            if lang == "en" { "Department of Economics and Statistics" }
+            else if lang == "it" { "Dipartimento di Scienze Economiche e Statistiche" }
+        } else if department == "disg" {
+            if lang == "en" { "Department of Legal Studies" }
+            else if lang == "it" { "Dipartimento di Scienze Giuridiche" }
+        } else if department == "dmif" {
             if lang == "en" { "Department of Mathematics, Computer Science and Physics" }
             else if lang == "it" { "Dipartimento di Scienze Matematiche, Informatiche e Fisiche" }
+        } else if department == "dium" {
+            if lang == "en" { "Department of Humanities and Cultural Heritage" }
+            else if lang == "it" { "Dipartimento di Studi Umanistici e del Patrimonio Culturale" }
+        } else if department == "dpia" {
+            if lang == "en" { "Polytechnic Department of Engineering and Architecture" }
+            else if lang == "it" { "Dipartimento Politecnico di Ingegneria e Architettura" }
         }
 
     // +-------------------+
@@ -182,7 +203,7 @@
 }
 
 // Function that creates a new slide
-// Basically, a bare wrapper for `#polylux-slide`
+// Basically, a bare wrapper for `#polylux-slide` with added page number
 #let slide(body) = {
     polylux-slide()[
         #place(bottom + right, dx: 37pt, dy: 10pt,
