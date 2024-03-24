@@ -12,7 +12,7 @@
         <img src="https://img.shields.io/static/v1?label=&message=uniud&color=0000ff" alt="uniud">
         <img src="https://img.shields.io/static/v1?label=template&message=slides&color=orange" alt="slides template">
         <br/>
-        An unofficial <a href="https://typst.app">Typst</a> template for presentation slides at the <a href="https://www.uniud.it/it">University of Udine</a>.
+        Unofficial <a href="https://typst.app">Typst</a> template for presentation slides at the <a href="https://www.uniud.it/it">University of Udine</a>.
         <br/>
     </p>
 </p>
