@@ -3,7 +3,7 @@
 // Date: 02/2024
 
 // This template uses [Polylux](https://github.com/andreasKroepelin/polylux) to render slides
-#import "@preview/polylux:0.3.1": *
+#import "@preview/polylux:0.4.0" as polylux
 
 // Main configuration function
 // Usually, it should be used with `#show`
@@ -147,7 +147,7 @@
     // +---------+
 
     // Title slide
-    polylux-slide({
+    polylux.slide({
         set align(center + top)
 
         // Degree course
@@ -205,10 +205,10 @@
 // Function that creates a new slide
 // Basically, a bare wrapper for `#polylux-slide` with added page number
 #let slide(body) = {
-    polylux-slide()[
+    polylux.slide()[
         #place(bottom + right, dx: 37pt, dy: 10pt,
             text(size: 12pt)[
-                #logic.logical-slide.display() / #utils.last-slide-number
+                #polylux.toolbox.slide-number / #polylux.toolbox.last-slide-number
             ],
         )
         #body
